@@ -231,6 +231,28 @@ button:focus,
   opacity: 0.8;
 }
 
+.project-image {
+  display: block;
+  margin: 20px auto 10px; /* Add space above and below the image */
+  max-width: 200px; /* Set a maximum width for the images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.project-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.mobile-project-image {
+  display: block;
+  margin: 20px auto 10px; /* Add space above and below the image */
+  max-width: 200px; /* Set a maximum width for the images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
 @-webkit-keyframes color-change {
   0% {
     fill: #fcd157;
