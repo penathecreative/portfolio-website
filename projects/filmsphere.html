@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmsphere - Project Detail</title>
+    <link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../img/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.production.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="page-header__item">
+            <a href="index.html"><img src="../img/bruno-logo.png" width="200"
+                    alt="Personal logo of Bruno Fernandes"></a>
+        </div>
+
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation"><a href="../index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation"><a href="../about.html" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation"><a href="../contact.html" role="menuitem"
+                        class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation"><a href="../work.html" class="navigation-list__item--active"
+                        role="menuitem">Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Main Content-->
+    <main class="main-sectionx-projects">
+
+        <h1>Filmsphere</h1>
+        <p>Filmsphere is a React-based web application that allows users to browse a curated collection of movies, sign
+            up, log in, and manage their profiles.</p>
+
+        <h2>My Role & Tasks</h2>
+        <p>In this project, I worked on both the frontend and backend. My tasks included designing the user interface,
+            implementing user authentication using JWT, and developing API endpoints for movie browsing and profile
+            management. I also handled the database integration with MongoDB Atlas.</p>
+
+        <h2>Key Decisions & Consequences</h2>
+        <p>A key decision was choosing React for the frontend and Node.js with Express for the backend. This allowed for
+            fast development and smooth integration between the client and server sides. Using JWT for authentication
+            ensured secure user access, while MongoDB Atlas provided a scalable database solution. These choices enabled
+            the app to handle user authentication and manage user profiles efficiently.</p>
+
+        <h2>What I Would Do Differently</h2>
+        <p>If I were to redo this project, I would improve the movie browsing experience by adding a recommendation
+            engine based on user preferences. Additionally, I would explore using a more sophisticated state management
+            tool like Redux to handle complex data flows in the frontend.</p>
+
+        <h2>Lessons Learned</h2>
+        <p>This project reinforced my skills in full-stack development, particularly integrating React with a Node.js
+            backend. I also learned valuable lessons in managing user data securely using JWT and handling RESTful API
+            design.</p>
+
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>Frontend: React, Bootstrap</li>
+            <li>Backend: Node.js, Express</li>
+            <li>Database: MongoDB Atlas</li>
+            <li>Authentication: JWT (JSON Web Tokens)</li>
+            <li>Deployment: Heroku</li>
+        </ul>
+
+        <h2>API Endpoints</h2>
+        <ul>
+            <li>GET /movies: Get all movies</li>
+            <li>GET /movies/:Title: Get movie by title</li>
+            <li>GET /movies/genres/:genreName: Get movies by genre</li>
+            <li>GET /movies/directors/:directorName: Get movies by director</li>
+            <li>POST /users/:Username/movies/:MovieID: Add movie to favorites</li>
+            <li>DELETE /users/:Username/movies/:MovieID: Remove movie from favorites</li>
+        </ul>
+        <h2>Project Links</h2>
+        <p>
+            <strong>Live Site:</strong> <a
+                href="https://filmshpere.netlify.app/login">https://filmshpere.netlify.app/login</a><br>
+            <strong>Github Repository:</strong> <a
+                href="https://github.com/penathecreative/filmsphere-client">https://github.com/penathecreative/filmsphere-client</a>
+        </p>
+
+
+        <!-- Image Section  with Description -->
+        <h2>Visual Overview</h2>
+        <p>The visual representation of the Filmsphere web application, showcasing the main interface and key
+            features.</p>
+        <div class="header-image">
+            <img class="visual-image" src="../img/filmsphere visual.png" alt="Image placeholder">
+        </div>
+        <div class="header-image">
+            <img class="visual-image" src="../img/filmsphere-visual2.png" alt="Image placeholder">
+        </div>
+
+        <!-- Back to Work Button -->
+        <div class="back-to-work">
+            <a href="../work.html" class="btn-back">← Back to Work</a>
+        </div>
+
+        <footer class="page-footer">
+            <p>Find me on</p>
+            <div class="social-media">
+                <a href="https://github.com/"><img src="../img/github_logo.svg" alt="Github"></a>
+                <a href="https://twitter.com/"><img src="../img/twitter_logo.svg" alt="Twitter"></a>
+                <a href="https://Linkedin.com/"><img src="../img/linkedin_logo.svg" alt="LinkedIn"></a>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

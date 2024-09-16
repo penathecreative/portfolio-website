@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet App - Project Detail</title>
+  <link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="../img/favicon-16x16.png" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="../CSS/style.production.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="page-header__item">
+      <a href="index.html"><img src="../img/bruno-logo.png" width="200" alt="Personal logo of Bruno Fernandes"></a>
+    </div>
+
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation"><a href="../index.html" role="menuitem" class="navigation-list__item">Home</a></li>
+        <li role="presentation"><a href="../about.html" role="menuitem" class="navigation-list__item">About</a></li>
+        <li role="presentation"><a href="../contact.html" role="menuitem" class="navigation-list__item">Contact</a></li>
+        <li role="presentation"><a href="../work.html" class="navigation-list__item--active" role="menuitem">Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-sectionx-projects">
+
+    <h1>Meet App</h1>
+    <p>In this project, I aimed to develop a serverless, progressive web application (PWA) using React and a test-driven
+      development (TDD) approach. The application leverages the Google Calendar API to fetch upcoming events, combining
+      the benefits of serverless architecture and PWAs. The key features include filtering events by city,
+      showing/hiding event details, specifying the number of events, offline functionality, and charts for data
+      visualization.</p>
+
+    <h2>My Role & Key Contributions</h2>
+    <p>I was responsible for designing and implementing the entire app, from the front-end development with React to the
+      integration of serverless functions and back-end logic using AWS Lambda. I focused on providing a seamless user
+      experience with offline support, event management, and dynamic data visualization.</p>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Show/Hide Event Details**: Users can toggle event details to control the amount of information displayed for
+        each event.</li>
+      <li>Specify Number of Events to View**: Users can customize the number of events displayed in the list.</li>
+      <li>Offline Access**: Users can view previously accessed events when offline, ensuring continuous access to
+        data.</li>
+      <li>Add to Home Screen**: Users can install the app as a PWA on their home screen for easy access.</li>
+      <li>City Events Chart**: A data visualization chart allows users to see upcoming events categorized by city.
+      </li>
+    </ul>
+
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>React: The application was built using React, which provided a component-based architecture for creating a
+        dynamic, user-friendly interface.</li>
+      <li>Google Calendar API: Used for fetching and displaying event data. OAuth2 authentication ensures secure
+        access to calendar data.</li>
+      <li>AWS Lambda: Serverless functions to manage backend operations without the need for traditional server
+        management, allowing for scalable and cost-effective execution.</li>
+      <li>Service Workers: Implemented to provide offline access and caching for improved user experience.</li>
+      <li>Jest: Used for unit and integration testing to ensure the reliability of the app's components.</li>
+      <li>Jest Cucumber: Employed for user acceptance testing, following a behavior-driven development (BDD)
+        approach.</li>
+      <li>Puppeteer: Used for end-to-end testing, simulating real user interactions in a headless browser
+        environment to validate app functionality.</li>
+    </ul>
+
+    <h2>Lessons Learned</h2>
+    <p>This project allowed me to dive deep into serverless architecture, TDD, and the mechanics of building a PWA. I
+      gained practical experience in integrating third-party APIs, ensuring app reliability through rigorous testing,
+      and providing offline functionality for a smoother user experience.</p>
+
+    <h2>Challenges Overcome</h2>
+    <p>Implementing offline functionality posed a challenge in terms of ensuring the app's usability when the user is
+      disconnected. I solved this by effectively using service workers and caching strategies. Additionally, testing the
+      app's features required a detailed approach to ensure complete test coverage, which I achieved using Jest and
+      Puppeteer.</p>
+
+    <h2>Future Improvements</h2>
+    <p>In future iterations, I would explore adding personalized event recommendations based on user preferences and
+      past event interactions. I would also implement more advanced data visualization techniques and expand support for
+      additional calendar integrations.</p>
+
+    <h2>Project Links</h2>
+    <p>
+      <strong>Live Site:</strong> <a
+        href="https://penathecreative.github.io/meet/">https://penathecreative.github.io/meet/</a><br>
+      <strong>Github Repository:</strong> <a
+        href="https://github.com/penathecreative/meet">https://github.com/penathecreative/meet</a>
+    </p>
+
+    <!-- Image Section  with Description -->
+    <h2>Visual Overview</h2>
+    <p>The visual representation of the meet web application, showcasing the main interface and key
+      features.</p>
+    <div class="header-image">
+      <img class="visual-image" src="../img/meet-visual.png" alt="Image placeholder">
+    </div>
+
+    <!-- Back to Work Button -->
+    <div class="back-to-work">
+      <a href="../work.html" class="btn-back">← Back to Work</a>
+    </div>
+
+
+  </main>
+
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <a href="https://github.com/"><img src="../img/github_logo.svg" alt="Github"></a>
+      <a href="https://twitter.com/"><img src="../img/twitter_logo.svg" alt="Twitter"></a>
+      <a href="https://Linkedin.com/"><img src="../img/linkedin_logo.svg" alt="LinkedIn"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
