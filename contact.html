@@ -37,28 +37,28 @@
       </ul>
     </nav>
   </header>
-
-  <main class="profile">
+  <main class="contact-main">
     <h1>Contact</h1>
-    <br>Castricum<br>
-    <br>Telephone <a href="tel+351916052732">+351 916052732</a> <br>Email
-    <a href="mailto:bmvpfernandes@gmail.com">bmvpfernandes@gmail.com</a>
-    <br>
-    <br>
-    <a href="mailto:bmvpfernandes@gmail.com">Contact me</a><br>
+    <p>Looking to work together or have a project in mind? Contact me today!</p>
+    <div class="contact-details">
+      <p>Telephone <a href="tel:+351916052732">+351 916052732</a></p>
+      <p>Email <a href="mailto:bmvpfernandes@gmail.com">bmvpfernandes@gmail.com</a></p>
+    </div>
+    <a href="mailto:bmvpfernandes@gmail.com" class="contact-link">Contact me</a>
+  </main>
 
-    <br>
 
-    <form action="contact-me" method="post" id="contact-form">
-      <label class="standard-label" for="contact-email">Email:</label>
-      <input type="email" id="contact-email" required>
-      <label class="standard-label" for="contact-tel">Telephone:</label>
-      <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-      <label class="standard-label" for="contact-message">Message:</label>
-      <textarea maxlength="240" id="contact-message" required></textarea>
-      <input type="submit" value="Send message">
+  <br>
 
-    </form>
+  <form action="contact-me" method="post" class="form-container">
+    <label class="form-label" for="contact-email">Email:</label>
+    <input type="email" class="form-input" id="contact-email" required>
+    <label class="form-label" for="contact-tel">Telephone:</label>
+    <input type="tel" class="form-input" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+    <label class="form-label" for="contact-message">Message:</label>
+    <textarea maxlength="240" class="form-textarea" id="contact-message" required></textarea>
+    <input type="submit" class="form-submit" value="Send message">
+  </form>
   </main>
 
   <br>
