@@ -252,6 +252,131 @@ button:focus,
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional: Add rounded corners */
 }
+.visual-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.main-sectionx-projects {
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /*  spacing between images */
+  justify-items: center; /* Center the images */
+  padding: 20px 0;
+}
+
+.image-item img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-title a {
+  text-decoration: none; /* Removes underline */
+  color: black; /* Sets the font color to black */
+  font-weight: bold; /* Optionally, you can add bold styling */
+}
+
+/* Hover effect for h2 links */
+.project-title a:hover {
+  color: #555; /* Changes color to dark gray on hover */
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto; /* Center the form on the page */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Labels */
+.form-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Inputs and textarea */
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Textarea specifically */
+.form-textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* Submit button */
+.form-submit {
+  background-color: #357b70;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-submit:hover {
+  background-color: #285d55;
+}
+
+/* Main contact section */
+.contact-main {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px; /* Adjust max-width to fit content nicely */
+}
+
+/* Contact details */
+.contact-details {
+  margin-bottom: 20px;
+}
+
+.contact-details a {
+  color: #357b70;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+/* Contact link */
+.contact-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #357b70;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
 
 @-webkit-keyframes color-change {
   0% {
