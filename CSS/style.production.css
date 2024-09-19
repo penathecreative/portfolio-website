@@ -109,12 +109,14 @@ a:active {
   display: flex;
   width: 100%;
   padding: 20px;
+  align-items: center;
 }
 
 .page-header__item {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 200px;
   flex: 0 1 200px;
+  width: 200px;
 }
 
 .page-header__item:last-child {
@@ -376,6 +378,11 @@ button:focus,
 
 .contact-link:hover {
   text-decoration: underline;
+}
+
+.about-text {
+  text-align: justify;
+  margin-bottom: 100px;
 }
 
 @-webkit-keyframes color-change {
