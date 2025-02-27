@@ -139,21 +139,6 @@ section {
   margin: 20px;
 }
 
-table,
-th,
-td {
-  border: 2px solid;
-  border-collapse: collapse;
-  -webkit-padding-start: 15px;
-  padding-inline-start: 15px;
-  -webkit-padding-end: 5px;
-  padding-inline-end: 5px;
-}
-
-table {
-  text-align: right;
-}
-
 .grid {
   display: -ms-grid;
   display: grid;
