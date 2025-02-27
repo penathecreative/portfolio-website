@@ -365,9 +365,31 @@ button:focus,
   text-decoration: underline;
 }
 
+.detail-icon {
+  font-size: 1.2rem;
+  margin-right: 5px;
+  color: #c4c5ba; /* Sophisticated Sage */
+}
+
+.location-text {
+  font-weight: bold;
+  color: #1b1b1b; /* Dark Gray for contrast */
+  background-color: #e4e4de; /* Ethereal Ivory for a soft highlight */
+  padding: 3px 8px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.location-text:hover {
+  background-color: #c4c5ba; /* Sage on hover */
+  color: #1b1b1b; /* Keep the contrast strong */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle lift effect */
+}
+
 .about-text {
   text-align: justify;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 /* Container for the Overview Section */
