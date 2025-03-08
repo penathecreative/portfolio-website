@@ -253,20 +253,19 @@ button:focus,
   margin: 0 auto;
   max-width: 1300px;
 }
+
 .image-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 20px; /*  spacing between images */
-  justify-items: center; /* Center the images */
-  padding: 20px 0;
+  display: flex; /* Aligns items in a row */
+  justify-content: space-between; /* Distributes images across the screen */
+  align-items: center; /* Aligns images vertically */
+  width: 100%; /* Ensures the grid spans the full width of the screen */
+  gap: 10px; /* Optional: Adds some space between images */
 }
 
 .image-item img {
-  max-width: 60%;
-  height: auto;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
+  max-width: 100%; /* Ensures images are responsive */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures the images are properly scaled */
 }
 
 .project-title a {
